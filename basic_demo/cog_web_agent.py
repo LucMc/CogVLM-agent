@@ -158,7 +158,7 @@ class MoEAgent():
         #     base_url = "https://api.endpoints.anyscale.com/v1",
         #     api_key = "esecret_mnn7gzeilp9n3nkf3prn9jlsnq")
         # self._gpt_model_name="mistralai/Mixtral-8x7B-Instruct-v0.1"
-        self._client=openai.OpenAI(api_key="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")
+        self._client=openai.OpenAI(api_key="<INSERT API KEY>") # Replace this with load dot env as git wont let you push api keys 
         self._gpt_model_name='gpt-3.5-turbo-0125'
         self._model_name = model_name
         self._temperature = temperature
